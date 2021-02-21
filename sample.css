@@ -12,21 +12,18 @@
 	.video-container {
 	  position: relative;
 	}
-
 	.video-container video{
 		opacity: 0.9;
 	}
-
 	.logo{
 		position: absolute;
 	  	top: 20px;
 	  	left: 30px;
 	}
-
 	.logo p{
 		font-weight: 700;
+		color: white;
 	}
-
 	.video-sidebar {
 	  position: absolute;
 	  top: 300px;
@@ -38,21 +35,17 @@
 	  padding-left: 30px;
 	  padding-top: 5px;
 	}
-
 	.video-sidebar h1{
 		color: white;
 		font-weight: 700;
 		font-size: 30px;
 	}
-
 	.video-sidebar a{
 		color: white;
 	}
-
 	.video-sidebar img{
 		color: white;
 	}
-
 	.header_midole{
 		margin-top: 50px;
 		margin-left: 30px;
@@ -62,17 +55,16 @@
 		font-weight: 600;
 	}
 	.header_midole input{
-		width: 350px;
+		/*width: 350px;*/
 		height: 60px;
 		padding-left: 20px;
 		border-radius: 10px;
 		/*枠線削除*/
 		border: none;
-　		outline: none;
 	}
 	.header_midole_input_field{
 		border: 1px black solid;
-		width: 500px;
+		/*width: 500px;*/
 		border-radius: 10px;
 	}
 	.header_midole_input_field button{
@@ -90,7 +82,6 @@
 		margin: 0;
 	}
 	main{
-
 		margin-left: 20px;
 		margin-right: 20px;
 	}
@@ -259,7 +250,7 @@
 	}
 	.footer_top{
 		padding-bottom: 30px;
-		border-bottom: solid 1px grey; 
+		border-bottom: solid 1px grey;
 	}
 	.footer_bottom{
 		padding-top: 30px;
@@ -294,6 +285,7 @@
 	.desktop{
 		display: none;
 	}
+
 }
 
 @media screen and (max-width:415px) {
@@ -404,6 +396,7 @@
 	}
 	.logo p{
 		font-weight: 700;
+		color: white;
 	}
 	.video-sidebar{
 		position: absolute;
