@@ -2,6 +2,12 @@
 	margin: 0;
 	padding: 0;
 }
+.video-container video{
+  max-width: 100%;
+}
+.header{
+  max-width: 100%;
+}
 @media screen and (max-width: 640px){
 	.video-container {
 	  position: relative;
@@ -348,6 +354,10 @@
 	}
 	.desktop_video{
 		display: none;
+	}
+	/*ビデオの画面調整*/
+	.video-container video{
+		width: 100%;
 	}
 
 }
